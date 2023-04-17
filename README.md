@@ -1,6 +1,6 @@
 # Project title: MYTOKEN.
 # Discription
-This Solidity project is a simple "TOKEN" program that demonstrates the basic syntax and functionality of how to create token. The purpose of this program is to highlight you  on how create to your very first TOKEN. This project is a simple smart contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. This project serves as a simple and straightforward introduction on how how create a simple TOKEN
+This Solidity project is a simple "TOKEN" program that demonstrates the basic syntax and functionality of mint and bunt function. The purpose of this program is to highlight you  on how create to your very first TOKEN. This project is a simple smart contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. This project serves as a simple and straightforward introduction on how how create a simple TOKEN
 
 Getting Started
 Executing program
@@ -11,7 +11,7 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
     //SPDX-License-Identifier:MIT
 pragma solidity ^0.8.18;
 
-contract MyToken{
+contract MyToken {
 
     // public variables here
     string public  tokenName = "BITNAIRA";
